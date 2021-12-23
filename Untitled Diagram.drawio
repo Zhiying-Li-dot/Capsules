@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-23T12:38:38.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="G8SgqoOfngLf9UgFFiH_" version="16.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-23T12:41:26.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="-5i8mLjkisNCFnWHpdtx" version="16.0.3" type="github">
   <diagram id="9fs0jbMGToxrDvv_5c6s" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,6 +94,36 @@
         </mxCell>
         <mxCell id="qQ-a2JhAL3kPGBjxck63-19" value="衣着&lt;br&gt;数据集" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="940" y="163" width="60" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="EEu4lTXLKkykwsV3e_mY-1" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="260" as="sourcePoint" />
+            <mxPoint x="900" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="970" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEu4lTXLKkykwsV3e_mY-2" value="原始YOLOv5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="264" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EEu4lTXLKkykwsV3e_mY-3" value="修改后的&lt;br&gt;衣着识别网络" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EEu4lTXLKkykwsV3e_mY-4" value="调整网络结构" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="750" y="264" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EEu4lTXLKkykwsV3e_mY-5" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="691" y="293.5" as="sourcePoint" />
+            <mxPoint x="741" y="293.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EEu4lTXLKkykwsV3e_mY-6" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="814" y="330" as="sourcePoint" />
+            <mxPoint x="814" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
